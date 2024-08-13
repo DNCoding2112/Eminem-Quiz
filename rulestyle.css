@@ -1,0 +1,50 @@
+body{
+	background-image: url("images/quizgamebg.png");
+	background-size: cover;
+	justify-content:center;
+}
+
+div p{
+	font-size:60px;
+	color:white;
+	text-shadow: 0 2px 6px black;
+	text-align:center;
+	margin: 80px 0;
+}
+
+#hint{
+	text-decoration:underline;
+	text-align:left;
+}
+
+
+.btn{
+	margin: 50px 550px 0 550px;
+	text-align:center;
+	font-family: serif;
+	font-size: 36px;
+	/*border: 2px solid black;
+	outline: 2px solid white;*/
+	justify-content:center;
+	transition: all 0.3s ease-in-out;
+	outline: 4px groove white;
+	text-decoration:none;
+	color:white;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+    position: relative;
+    overflow: hidden;
+	border-radius:0.5vmin;
+}
+
+.btn:hover{
+	outline: 4px ridge black;
+	text-shadow: 1px 1px 10px black;
+	background:white;
+	box-shadow: 0px 0px 2px 2px black;
+	color:black;
+	transform:scale(1.2);
+}
+
+
+
